@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOOK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <div class="container"><!-- deve exitir, em todas as páginas, um container que server para "conter" toda a página -->
+
+
+<!--barra de menu-->
+         <!-- criada a classe "header" para manipular os estilos do cabeçalho -->    
+         <div class="row header">
+
+          <!-- Criar 12 colunas para colocar os botões e através de CSS (classe funcionalidades) alinhar os botões à diretita -->
+          <div class="col-md-12 funcionalidades">
+            <button type="button" class="btn btn-dark">Sign up</button>
+            <button type="button" class="btn btn-light">Login</button>
+          </div>
+
+          <div class="col-md-2 offset-md-5 logo"><!-- criada a classe "logo" para aplicar margem inferior e superior -->
+              <a href="Index.html"><!-- A página de inicio deve sempre ter a index.html como nome e não homepage.html -->
+                  <img src="LOOKLOGO.jpg" alt="LOOK" class="img-fluid logo">
+              </a>    
+            </div>
+          
+       <!-- criada a classe "menu" para manipular os estilos do cabeçalho -->    
+       <div class="col-md-12 menu">
+              <nav class="navbar navbar-expand-lg">
+                  <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                      <ul class="navbar-nav">
+
+
+                          <li class="nav-item">
+                              <a class="nav-link" href="Dicas.html">Dicas</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="tendencias.html">Tendências</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="datas.html">Datas</a>
+                            </li>
+                      
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+          </div>
+      </div>
+<!--fim da barra de menu-->
+
+
+
+<!--quadrado cizento + foto-->
+
+<!-- não deve utilizar a mesma classe que criou para o cabeçalho ("header"), por dessa forma está a utilizar os estilos do menu 
+criei uma nova classe ("header-cinza") para a distinguir-->
+
+<div class="row header-cinza">
+  <div class="col-md-10 offset-md-1">
+    <img src="pessoa1.jpg" class="img-fluid" alt="modelo">
+  </div>
+</div>
+
+<!--fim quadrado cizento + foto-->
+
+
+
+<!--quadrado + foto direita-->
+<div class="row">
+  <div class="col-md-5 tudo1">
+    <h5 class="titulo1"> <b>O segredo para ter estilo </b></h5>
+    <p>Na nossa página dedicada a dicas de roupa e maquilhagem, descubra os segredos para elevar o seu guarda roupa.
+      Este é o seu guia perfeito para descobrir o que usar em casa ocasião.</p>
+      <class class="nav-item">
+        <a class="nav-link botao" href="Dicas.html"> <button type="button" class="btn btn-dark">Saber mais</button>
+        </class> </a>
+      </class>
+  </div>
+  <div class="col-md-7">
+    <img src="calcas1.jpg" class="img-fluid calcas1" alt="foto de calças">
+  </div>
+</div>
+
+<!--fim quadrado + foto direita-->
+
+<hr>
+
+<!--inicio essenciais -->
+
+
+<h10 class="titulo10"><b> Essenciais </b></h10>
+
+
+<div class="row">
+    <div class="col-md-3 tudo3">
+        <img src="fenty.jpg" alt="Fenty Beauty - highlighter" class="img-fluid">
+        <div class="row texto2">
+        <P> Fenty Beauty - highlighter</P>
+      </div>
+    </div>
+    <div class="col-md-3 tudo3">
+        <img src="argolas1.jpg" alt="Argolas douradas" class="img-fluid">
+        <div class="row texto2">
+        <p>Argolas douradas</p>
+      </div>
+    </div>
+    <div class="col-md-3 tudo3">
+        <img src="tennis1.jpg" alt="Tennis - New Balance" class="img-fluid">
+        <div class="row texto2">
+        <p>Tennis - New Balance</p>
+      </div>
+    </div>
+    <div class="col-md-3 tudo3">
+        <img src="verde1.jpg" alt="Casaco de cabedal" class="img-fluid">
+        <div class="row texto2">
+        <p>Casaco de cabedal</p>
+      </div>
+    </div>
+</div>
+
+
+
+    <div class="row">
+        <div class="col-md-3">
+            <img src="jeans1.jpg" alt="Calças de ganga" class="img-fluid">
+            
+            
+            <div class="row texto2">
+            <p>Calças de ganga</p>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+            <img src="blush1.jpg" alt="blush" class="img-fluid">
+            <div class="row texto2">
+            <p>Blush</p>
+          </div>
+
+        </div>
+        <div class="col-md-3">
+            <img src="chanelp1.jpg" alt="Perfume - Chanel" class="img-fluid">
+            <div class="row texto2">
+            <P>Perfume - Chanel</P>
+          </div>
+        </div>
+        <div class="col-md-3">
+            <img src="bijutaria1.jpg" alt="Bijutaria dourada" class="img-fluid">
+            <div class="row texto2">
+            <p>Bijutaria dourada</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4 offset-md-4 texto1"> 
+    <p10> Estes são os itens indispensáveis que
+      necessita ter. Dos acessórios must-have às 
+      peças de destaque, adote um estilo de 
+      sofisticação e inspirado nas maiores 
+      referências do tapete vermelho.</p10>
+    </div>
+  </div>
+
+
+    <!-- fim essenciais -->
+
+
+<hr> 
+
+    <!-- quadrado + foto esquerda-->
+
+<div class="row">
+  <div class="col-md-7">
+    <img src="armario1.jpg" class="img-fluid armario1" alt="foto de um armário">
+  </div>
+  <div class="col-md-5 tudo2">
+    <h5 class="titulo2"> <b>O que é irresistível de comprar </b></h5>
+    <p>Das passarelas aos looks de rua, exploramos as paletas de cores, padrões e produtos de maquilhagem que estão a ditar as regras.</p>
+    <class class="nav-item">
+      <a class="nav-link botao" href="tendencias.html"> <button type="button" class="btn btn-dark">Saber mais</button>
+      </class> </a>
+   
+  </div>
+  
+</div>
+
+<!-- fim quadrado + foto esquerda-->
+
+<hr>
+
+
+<!-- não esquecer-->
+
+<h5 class="titulo9"> <b>Não esquecer</b></h5>
+
+
+<div class="row">
+  <div class="col-md-2">
+      <img src="Seoul.jpg" alt="DATA" class="img-fluid seoul1">
+      <button type="button" class="btn btn-dark botao1"> 01/02 a 05/02</button>
+  </div>
+ 
+  <div class="col-md-2 offset-md-1">
+      <img src="berlim.jpg" alt="DATA" class="img-fluid berlim1">
+      <button type="button" class="btn btn-dark botao2">05/02 a 08/02</button>
+  </div>
+  
+  <div class="col-md-2 offset-md-1">
+      <img src="ny.jpg" alt="DATA" class="img-fluid ny1">
+      <button type="button" class="btn btn-dark botao3">08/02 a 14/02</button>
+  </div>
+  
+  <div class="col-md-2 offset-md-2">
+      <img src="London.jpg" alt="DATA" class="img-fluid london1">
+      <button type="button" class="btn btn-dark botao4">16/02 a 20/02</button>
+  </div>
+ 
+</div>
+
+
+
+<!--fim não esquecer-->
+
+
+
+
+   <!-- ÁREA "Rodapé" -->
+   <div class="row pre-footer">
+    <div class="col-md-6 social">
+      <ul>
+        <li><a href="https://www.facebook.com"><i class="fa-brands fa-square-facebook"></i></a> </li>
+        <li><a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a> </li>
+        <li><a href="mailto:info@look.pt"><i class="fa-solid fa-envelope"></i></a> </li>
+      </ul>
+    </div>
+    <div class="col-md-6 contactos">
+      <ul>
+        <li><a href="contactos.html">Quem somos</a></li>
+        <li>|</li>
+        <li><a href="contactos.html">Onde estamos</a></li>
+        <li>|</li>
+        <li><a href="contactos.html">Contactos</a></li>
+      </ul>
+    </div>
+    <div class="col-md-12 footer">
+        <a href="#">@ 2023 LOOK, todos os direitos reservados</a>
+    </div>
+  </div><!-- Fim de área "Rodapé" -->
+
+
+
+</div><!-- fim de contentor -->
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
